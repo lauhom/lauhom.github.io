@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>刘洪</title>
+    <description>刘洪的个人博客</description>
+    <link>https://lauhom.github.io/</link>
+    <atom:link href="https://lauhom.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 06 Jan 2018 08:41:48 -0800</pubDate>
+    <lastBuildDate>Sat, 06 Jan 2018 08:41:48 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>jekyll学习记录</title>
+        <description>&lt;h2 id=&quot;jekll学习记录&quot;&gt;jekll学习记录&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$ jekyll build
+    &lt;ul&gt;
+      &lt;li&gt;当前文件夹中的内容将会生成到 ./_site 文件夹中。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$ jekyll build –destination &lt;destination&gt;&lt;/destination&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;当前文件夹中的内容将会生成到目标文件夹&lt;destination&gt;中。&lt;/destination&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$ jekyll build –source &lt;source /&gt; –destination &lt;destination&gt;&lt;/destination&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;指定源文件夹&lt;source /&gt;中的内容将会生成到目标文件夹&lt;destination&gt;中。&lt;/destination&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$ jekyll build –watch&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;当前文件夹中的内容将会生成到 ./_site 文件夹中，查看改变，并且自动再生成。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$ jekyll serve&lt;/li&gt;
+  &lt;li&gt;一个开发服务器将会运行在 http://localhost:4000/&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Auto-regeneration（自动再生成文件）: 开启。使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;--no-watch&lt;/code&gt; 来关闭。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;$ jekyll serve –detach&lt;/li&gt;
+  &lt;li&gt;功能和&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;命令相同，但是会脱离终端在后台运行。&lt;/li&gt;
+  &lt;li&gt;如果你想关闭服务器，可以使用&lt;code class=&quot;highlighter-rouge&quot;&gt;kill -9 1234&lt;/code&gt;命令，”1234” 是进程号（PID）。&lt;/li&gt;
+  &lt;li&gt;如果你找不到进程号，那么就用&lt;code class=&quot;highlighter-rouge&quot;&gt;ps aux | grep jekyll&lt;/code&gt;命令来查看，然9后关闭服务器。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 05 Jan 2018 16:04:00 -0800</pubDate>
+        <link>https://lauhom.github.io/github/2018/01/05/jekyll-command.html</link>
+        <guid isPermaLink="true">https://lauhom.github.io/github/2018/01/05/jekyll-command.html</guid>
+        
+        
+        <category>Github</category>
+        
+      </item>
+    
+  </channel>
+</rss>

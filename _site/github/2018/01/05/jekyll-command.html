@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <meta name="baidu-site-verification" content="BxoR28hj8I" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jekyll学习记录</title>
+    <meta name="description" content="刘洪的个人博客">
+    <link rel="stylesheet" href="https://lauhom.github.io/css/normalize.css">
+    <link rel="stylesheet" href="https://lauhom.github.io/css/main.css?01">
+    
+</head>
+
+
+<body>
+  <a href="#top" id="toTop"></a>
+  <div id="loading">
+    <ul class="bokeh">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+  <header class="site-header" id="site-nav">
+    <div class="wrapper">
+        <a id="logo" class="site-title" href="https://lauhom.github.io/index.html">刘洪</a>
+        <nav class="site-nav">
+            <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
+                </svg>
+            </a>
+            <div class="trigger">
+                
+                <a class="page-link" id="Github" href="https://lauhom.github.io/category.html#Github">
+                        Github
+                    </a> 
+            </div>
+        </nav>
+    </div>
+</header>
+
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="post">
+    <header class="post-header">
+        <h1 class="post-title">
+    		jekyll学习记录
+    	</h1>
+        <p class="post-meta">
+        	January 5, 2018
+        </p>
+    </header>
+    <article class="post-content">
+        <h2 id="jekll学习记录">jekll学习记录</h2>
+
+<ul>
+  <li>$ jekyll build
+    <ul>
+      <li>当前文件夹中的内容将会生成到 ./_site 文件夹中。</li>
+    </ul>
+  </li>
+  <li>$ jekyll build –destination <destination></destination></li>
+  <li>
+    <p>当前文件夹中的内容将会生成到目标文件夹<destination>中。</destination></p>
+  </li>
+  <li>$ jekyll build –source <source /> –destination <destination></destination></li>
+  <li>
+    <p>指定源文件夹<source />中的内容将会生成到目标文件夹<destination>中。</destination></p>
+  </li>
+  <li>$ jekyll build –watch</li>
+  <li>
+    <p>当前文件夹中的内容将会生成到 ./_site 文件夹中，查看改变，并且自动再生成。</p>
+  </li>
+  <li>$ jekyll serve</li>
+  <li>一个开发服务器将会运行在 http://localhost:4000/</li>
+  <li>
+    <p>Auto-regeneration（自动再生成文件）: 开启。使用 <code class="highlighter-rouge">--no-watch</code> 来关闭。</p>
+  </li>
+  <li>$ jekyll serve –detach</li>
+  <li>功能和<code class="highlighter-rouge">jekyll serve</code>命令相同，但是会脱离终端在后台运行。</li>
+  <li>如果你想关闭服务器，可以使用<code class="highlighter-rouge">kill -9 1234</code>命令，”1234” 是进程号（PID）。</li>
+  <li>如果你找不到进程号，那么就用<code class="highlighter-rouge">ps aux | grep jekyll</code>命令来查看，然9后关闭服务器。</li>
+</ul>
+
+    </article>
+    <div id="container"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+    var gitment = new Gitment({
+      owner: 'cody1991',
+      repo: 'cody1991.github.io',
+      oauth: {
+        client_id: '286834ce17a5b9971275',
+        client_secret: '5adff8e9c688905d62dd8fc5f54561ed2e59ed4c',
+      },
+    })
+    gitment.render('container')
+    </script>
+</div>
+
+    </div>
+  </div>
+  <footer class="site-footer clearfix">
+    <div class="wrapper">
+        <div class="footer-col-wrapper clearfix">
+            <div class="footer-col">
+                
+                <a target="_blank" href="#">
+                    <span class="username">Twitter</span>
+                </a>
+                
+            </div>
+            <div class="footer-col">
+                
+                <a target="_blank" href="https://github.com/lauhom">
+                    <span class="username">GitHub</span>
+                </a>
+                
+            </div>
+            <div class="footer-col">
+                <a target="_blank" href="https://lauhom.github.io/aboutme/index.html">简历</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://lauhom.github.io/js/common.js"></script>
+</body>
+
+</html>
+

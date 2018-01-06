@@ -1,0 +1,16 @@
+# Site settings
+encoding: utf-8
+title: 刘洪
+description: 刘洪的个人博客
+baseurl: "https://lauhom.github.io"  
+# baseurl: ''
+github_username:  lauhom
+paginate: 8
+paginate_path: "/page:num"
+footer_twitter: "Twitter"
+footer_twitter_site: "#"
+footer_github: "GitHub"
+footer_resume: "简历"
+footer_resume_site: "https://lauhom.github.io/aboutme/index.html"
+port: 8070
+gems: [jekyll-paginate]
